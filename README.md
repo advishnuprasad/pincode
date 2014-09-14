@@ -1,4 +1,5 @@
-# pincode - A ruby wrapper for the India Pincode API(http://pin-codes.in/)
+# pincode - A ruby wrapper for the India Pincode API
+  Source : http://pin-codes.in/
 
 
 ## Installation
@@ -6,15 +7,15 @@
 
 ## Usage
 
-  detail = Pincode.search <pincode>
+    detail = Pincode.search <pincode>
   
-  detail.status
+    detail.status
   
-  detail.post_office
+    detail.post_office
   
-  detail.district
+    detail.district
   
-  detail.state
+    detail.state
   
    
 ## Run tests
