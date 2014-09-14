@@ -1,15 +1,22 @@
 require 'httparty'
-# require 'pincode/response'
+require 'pincode/response'
 
 module Pincode
 
-  include HttParty
+  include HTTParty
+  format :json
 
   class << self
 
     def search(query)
-      p "hello world"
+      Response.new get(url + query.to_s)
     end
 
+    def url
+      "http://pin-codes.in/api/pincode/"
+    end
   end
+
+  class InvalidPincodeError < StandardError;  end
 end
+
