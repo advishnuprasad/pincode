@@ -5,10 +5,15 @@
   gem install pincode
 
 ## Usage
+
   detail = Pincode.search <pincode>
+  
   detail.status
+  
   detail.post_office
+  
   detail.district
+  
   detail.state
   
    
