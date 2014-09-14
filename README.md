@@ -1,4 +1,4 @@
-# pincode - A ruby wrapper for the India Pincode API
+# Pincode - A ruby wrapper for the India Pincode API
   Source : http://pin-codes.in/
 
 
