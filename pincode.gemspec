@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.files        = `git ls-files`.split("\n")
   s.executables  = `git ls-files`.split("\n").map{|f| f =~ /^bin\/(.*)/ ? $1 : nil}.compact
   s.require_path = 'lib'
-  s.homepage    = 'http://rubygems.org/gems/pincode'
+  s.homepage    = 'https://github.com/advishnuprasad/pincode'
   s.license     = 'MIT'
 
   s.add_runtime_dependency 'httparty', '~> 0'
